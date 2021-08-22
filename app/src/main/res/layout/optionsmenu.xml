@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0080ff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="Scientific Quiz"
+            android:padding="20dp"
+            android:textColor="#ffffff"
+            android:textSize="40.0sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnplay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="50dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="Play"
+            android:textColor="#000000"
+            android:textSize="25.0sp" />
+
+        <Button
+            android:id="@+id/btnlearn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="Learn"
+            android:textColor="#000000"
+            android:textSize="25.0sp" />
+
+        <Button
+            android:id="@+id/btnhighscore"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="High Scores"
+            android:textColor="#000000"
+            android:textSize="25.0sp" />
+
+        <Button
+            android:id="@+id/btnhelp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="Help"
+            android:textColor="#000000"
+            android:textSize="25.0sp" />
+
+        <Button
+            android:id="@+id/btnexit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="Exit"
+            android:textColor="#000000"
+            android:textSize="25.0sp" />
+    </LinearLayout>
+</ScrollView>
